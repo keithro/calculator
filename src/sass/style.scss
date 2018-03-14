@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Raleway');
+
+// Colors
+// $color1: purple;
+// $color2: #ddd;
+
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+
+// Breakpoints
+$tablet-breakpoint: 48rem; // 768
+$desktop-breakpoint: 66rem; // 1056
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	// color: $color1; // test
+	// background: $color2; // test
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.6;
+
+	// // https://codepen.io/mostafazke/full/oEVdjq/
+	// background:
+	// 	radial-gradient(circle, transparent 20%, #405c71 20%, #405c71 80%,transparent 80%, transparent),
+	// 	radial-gradient(circle, transparent 20%, #405c71 20%, #405c71 80%, transparent 80%, transparent) 50px 50px,
+	// 	linear-gradient(#2c5269 8px, transparent 8px) 0 -4px,
+	// 	linear-gradient(90deg, #2c5269 8px, transparent 8px) -4px 0;
+	// background-color: #405c71;
+}
